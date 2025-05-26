@@ -119,11 +119,69 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_7mG7zV": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4Qp4TC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC_1129_382e49f9-cca9-4c16-8d4f-7ece0bd1a2c9.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Rmgadi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC_1152_e204a5f8-ffdf-43f5-9819-52dd05ebc1cb.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_C7LBbb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC_0961_d4b0ff33-554d-4b7b-b033-a5268bfcde54.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4Qp4TC",
+        "column_Rmgadi",
+        "column_C7LBbb"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>OUTERPROOFS™</strong>",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "slideshow_fWjXyz",
     "multicolumn_6KTiVG",
-    "featured_collection"
+    "featured_collection",
+    "multicolumn_7mG7zV"
   ]
 }
