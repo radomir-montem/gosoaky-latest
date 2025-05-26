@@ -46,6 +46,52 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "multicolumn_6KTiVG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YjpxaP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/GOSOAKY_SS25_KANGAROO_DAISY_SILT_GREEN_1_6cd236c7-3ca1-4faf-95a5-0b0ea5dc779c.jpg",
+            "title": "<strong>VIEW ALL</strong>",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/spring-summer-2025-outerwear"
+          }
+        },
+        "column_QfGRRK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/GOSOAKY_SS25_ELEPHANT_MAN_ICE_BERG_GREEN_2_ebbb9319-7859-47b6-b522-df0826dd66db.jpg",
+            "title": "<strong>VIEW ALL</strong>",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/spring-summer-2025-rainwear"
+          }
+        }
+      },
+      "block_order": [
+        "column_YjpxaP",
+        "column_QfGRRK"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -77,6 +123,7 @@
   },
   "order": [
     "slideshow_fWjXyz",
+    "multicolumn_6KTiVG",
     "featured_collection"
   ]
 }
