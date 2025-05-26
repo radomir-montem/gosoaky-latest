@@ -210,9 +210,10 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/GOSOAKY_SS25_KANGAROO_DAISY_SILT_GREEN_5_2af0b7f1-2f00-45f5-837b-b9a9f0da3787.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "top",
