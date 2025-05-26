@@ -224,6 +224,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "174828933899d67d2b": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_qRPQ9n": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "SUWVQ7"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_qRPQ9n"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -231,6 +248,7 @@
     "multicolumn_6KTiVG",
     "featured_collection",
     "multicolumn_7mG7zV",
-    "image_with_text_tU8qFA"
+    "image_with_text_tU8qFA",
+    "174828933899d67d2b"
   ]
 }
