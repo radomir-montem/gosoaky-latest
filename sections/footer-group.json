@@ -1,19 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_NLQq8f": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>QUICK LINKS</strong>",
+            "menu": "quick-links-dawn"
+          }
+        },
+        "link_list_RbHmYx": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>INFO</strong>",
+            "menu": "footer-menu-dawn"
+          }
+        },
+        "text_78PnJQ": {
+          "type": "text",
+          "settings": {
+            "heading": "<strong>OUR MISSION</strong>",
+            "subtext": "<p>It’s our mission to make people happy with our garments and work towards a sustainable future.</p>"
+          }
+        },
+        "text_m9tzYh": {
+          "type": "text",
+          "settings": {
+            "heading": "<strong>OUTERPROOFS FOR ADULTS</strong>",
+            "subtext": "<p><a href=\"https://gofranck.com/\" target=\"_blank\" title=\"https://gofranck.com/\"><strong>GOFRANCK.COM</strong></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_NLQq8f",
+        "link_list_RbHmYx",
+        "text_78PnJQ",
+        "text_m9tzYh"
+      ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "color_scheme": "scheme-4",
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "show_social": true,
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": true,
         "payment_enable": true,
-        "show_policy": true,
+        "show_policy": false,
         "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
