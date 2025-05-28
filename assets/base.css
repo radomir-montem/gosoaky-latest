@@ -3602,9 +3602,9 @@ details-disclosure > details {
 }
 
 .icon-button .st0 {
-  fill: #fff;
+  fill: currentColor;
   fill-opacity: 0;
-  stroke: #fff;
+  stroke: currentColor;
   stroke-width: 2;
   stroke-miterlimit: 10;
   transition: fill-opacity .3s ease-in-out;
@@ -3633,6 +3633,17 @@ details-disclosure > details {
   }
 }
 
+.collection__view-all {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 990px) {
+  .collection__view-all {
+    justify-content: flex-start;
+  }
+}
+
 @keyframes indeterminateAnimation {
   0% {
     transform: translateX(-20%) scaleX(0);
@@ -3643,4 +3654,24 @@ details-disclosure > details {
   100% {
     transform: translateX(100%) scaleX(0);
   }
+}
+
+
+.price__sale .price-item--regular {
+  display: none !important;
+}
+
+.card__product-subtitle {
+  perspective-origin: 50%;
+  transform-origin: 0 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  position: absolute;
+  inset: auto auto 16px 32px;
+  transform: rotate(-90deg);
+  z-index: 1;
 }
