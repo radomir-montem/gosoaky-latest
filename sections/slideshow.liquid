@@ -255,6 +255,23 @@
       {%- endif -%}
     </div>
   {%- endif -%}
+
+  {% if section.settings.usp_text != blank %}
+    <div class="slideshow-usp">
+      <div
+        id="slideshow-usp--{{ section.id }}"
+        class="slideshow-usp__wrapper"
+      >
+        <div class="slideshow-usp__inner">
+          {% for i in (1..2) %}
+            <div class="slideshow-usp__rte">
+              {{ section.settings.usp_text }}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
 </slideshow-component>
 
 {%- if request.design_mode -%}
@@ -382,6 +399,12 @@
       "label": "t:sections.slideshow.settings.accessibility.label",
       "info": "t:sections.slideshow.settings.accessibility.info",
       "default": "t:sections.slideshow.settings.accessibility.default"
+    },
+    {
+      "type": "richtext",
+      "id": "usp_text",
+      "label": "USP Text",
+      "default": "<p>WINDPROOF | WATERPROOF 8K COLUMN PRESSURE | BREATHABLE 3K | BIONIC FINISH®ECO WATER REPELLENT | WINDPROOF | WATERPROOF 8K COLUMN PRESSURE | BREATHABLE 3K | BIONIC FINISH®ECO WATER REPELLENT</p>"
     }
   ],
   "blocks": [

@@ -37,7 +37,7 @@ slideshow-component .slideshow.banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 54.5rem;
+  max-width: 65rem;
 }
 
 .slideshow__text > * {
@@ -198,4 +198,48 @@ slideshow-component:not(.page-width) .slider-buttons {
   visibility: hidden;
   opacity: 0;
   transform: scale(0.8);
+}
+
+.slideshow-usp {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 1rem;
+  height: 5.2rem;
+  overflow: hidden;
+}
+
+.slideshow-usp__rte {
+  color: #f3fd00;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.slideshow-usp__rte * {
+  margin: 0;
+}
+
+.slideshow-usp__wrapper {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  transition: all 1s ease;
+}
+
+.slideshow-usp__inner {
+  display: flex;
+  animation: scrollText 33s infinite linear;
+}
+
+@keyframes scrollText {
+  from   { transform: translateX(0%); }
+  to { transform: translateX(-50%); }
 }
