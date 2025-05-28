@@ -223,8 +223,8 @@
         "text_VyGnaB": {
           "type": "text",
           "settings": {
-            "text": "<p>Imagine a square tube of 30 mm x 30 mm that is placed on top of the fabric and is filled with water while measuring the height of the water. The height of the water says something about the amount of pressure the fabric can withstand before the water will penetrate the fabric. That is how Water Column Pressure is measured. So, a Water Column Pressure of 8K means that the fabric can withstand 8.000 mm of water pressure. The SS25 collection has a range from 5000mm to 8000mm column pressure.<br/><br/></p>",
-            "text_style": "subtitle"
+            "text": "<p>Imagine a square tube of 30 mm x 30 mm that is placed on top of the fabric and is filled with water while measuring the height of the water. The height of the water says something about the amount of pressure the fabric can withstand before the water will penetrate the fabric. That is how Water Column Pressure is measured. So, a Water Column Pressure of 8K means that the fabric can withstand 8.000 mm of water pressure. The SS25 collection has a range from 5000mm to 8000mm column pressure.<br/></p><p></p><p></p>",
+            "text_style": "body"
           }
         },
         "button_Hx3UGG": {
@@ -232,7 +232,7 @@
           "settings": {
             "button_label": "SHOP NOW",
             "button_link": "shopify://collections/spring-summer-2025",
-            "button_style_secondary": false
+            "view_all_style": "icon_with_button"
           }
         }
       },

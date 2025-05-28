@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.image-with-text__grid--reverse {
+  flex-direction: column-reverse;
+}
+
 @media screen and (min-width: 750px) {
   .image-with-text__grid--reverse {
     flex-direction: row-reverse;
@@ -413,5 +417,16 @@
 @media screen and (min-width: 750px) {
   .multirow__inner {
     row-gap: var(--grid-desktop-vertical-spacing);
+  }
+}
+
+@media (max-width: 749px) {
+  .image-with-text:not(.image-with-text--overlap) .image-with-text__content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .image-with-text:not(.image-with-text--overlap) .image-with-text__grid--reverse .image-with-text__content {
+    padding-top: 0;
   }
 }

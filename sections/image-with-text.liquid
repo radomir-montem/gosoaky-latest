@@ -92,10 +92,13 @@
                       {% else %}
                         href="{{ block.settings.button_link }}"
                       {% endif %}
-                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      class="{% if block.settings.view_all_style == 'link' %}link underlined-link{% elsif block.settings.view_all_style == 'solid' %}button{% elsif block.settings.view_all_style == 'icon_with_button' %}full-unstyled-link button-with--icon{% else %}button button--secondary{% endif %}"
                       {{ block.shopify_attributes }}
                     >
                       {{ block.settings.button_label | escape }}
+                      {% if block.settings.view_all_style == 'icon_with_button' %}
+                        {% render 'icon-button' %}
+                      {% endif %}
                     </a>
                   {%- endif -%}
               {%- endcase -%}
@@ -459,10 +462,29 @@
           "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
         },
         {
-          "type": "checkbox",
-          "id": "button_style_secondary",
-          "default": false,
-          "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+          "type": "select",
+          "id": "view_all_style",
+          "label": "t:sections.featured-collection.settings.view_all_style.label",
+          "options": [
+            {
+              "value": "link",
+              "label": "t:sections.featured-collection.settings.view_all_style.options__1.label"
+            },
+            {
+              "value": "outline",
+              "label": "t:sections.featured-collection.settings.view_all_style.options__2.label"
+            },
+            {
+              "value": "solid",
+              "label": "t:sections.featured-collection.settings.view_all_style.options__3.label"
+            }
+            ,
+            {
+              "value": "icon_with_button",
+              "label": "Icon with button"
+            }
+          ],
+          "default": "icon_with_button"
         }
       ]
     }
