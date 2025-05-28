@@ -112,6 +112,48 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_jhYYnC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kwnQVL": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>OUTERPROOFS™</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_kLEkaC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kids should play outside and explore the world, no matter the forecast! This is why we at GOSOAKY started making fresh and technical OUTERPROOFS™, so every kid could be comfortable and dry on their adventure, without compromising style!</p>"
+          }
+        },
+        "button_aVamWM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Gosoaky tv",
+            "button_link": "shopify://pages/gosoaky-tv",
+            "view_all_style": "icon_with_button",
+            "button_label_2": "This is gosoaky",
+            "button_link_2": "shopify://pages/this-is-gosoaky",
+            "view_all_style_2": "icon_with_button"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kwnQVL",
+        "text_kLEkaC",
+        "button_aVamWM"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn_7mG7zV": {
       "type": "multicolumn",
       "blocks": {
@@ -152,7 +194,7 @@
         "column_C7LBbb"
       ],
       "settings": {
-        "title": "<strong>OUTERPROOFS™</strong>",
+        "title": "",
         "heading_size": "h0",
         "image_width": "full",
         "image_ratio": "portrait",
@@ -163,7 +205,7 @@
         "background_style": "primary",
         "color_scheme": "",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -237,6 +279,7 @@
     "slideshow_fWjXyz",
     "collection_list_c4HtXe",
     "featured_collection",
+    "rich_text_jhYYnC",
     "multicolumn_7mG7zV",
     "image_with_text_tU8qFA",
     "174828933899d67d2b"
