@@ -3595,6 +3595,44 @@ details-disclosure > details {
   display: block;
 }
 
+.icon.icon-button {
+  width: 16px;
+  height: 12px;
+  margin-top: 2px;
+}
+
+.icon-button .st0 {
+  fill: #fff;
+  fill-opacity: 0;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  transition: fill-opacity .3s ease-in-out;
+  width: 16px;
+  height: 12px;
+}
+
+.button-with--icon {
+  display: flex;
+  align-items: center;
+  font-size: 2.4rem;
+  line-height: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button-with--icon:hover .icon-button .st0 {
+  fill-opacity: 1;
+}
+
+@media (max-width: 749px) {
+  .button-with--icon {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
 @keyframes indeterminateAnimation {
   0% {
     transform: translateX(-20%) scaleX(0);

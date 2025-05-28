@@ -59,3 +59,37 @@
 .collection-list-view-all {
   margin-top: 2rem;
 }
+
+.collection-list .card__content {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding-left: 64px;
+}
+
+.card__heading-vertical {
+  perspective-origin: 50%;
+  transform-origin: 0 100%;
+  color: #fff;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: proxima-nova, sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  position: absolute;
+  inset: auto auto 31px 70px;
+  transform: rotate(-90deg);
+}
+
+@media (max-width: 749px) {
+  .collection-list .card__content {
+    padding-left: 60px;
+  }
+
+  .card__heading-vertical {
+    inset: auto auto 26px 60px;
+  }
+}
