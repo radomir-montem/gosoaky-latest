@@ -92,6 +92,51 @@
         "padding_bottom": 12
       }
     },
+    "17486155920466250d": {
+      "type": "apps",
+      "blocks": {
+        "selleasy_lb_upsell_widget_bl_jm4N4D": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-bl/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "selleasy_lb_upsell_widget_bl_jm4N4D"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17486161674145f31e": {
+      "type": "apps",
+      "blocks": {
+        "selleasy_lb_upsell_widget_pal_yq6npE": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-pal/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "selleasy_lb_upsell_widget_pal_yq6npE"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "174861617467b51d0f": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_W8B9wi": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_W8B9wi"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -109,10 +154,31 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "17486161899a5c8da9": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_QBFUaC": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "SUWVQ7"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_QBFUaC"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "17486155920466250d",
+    "17486161674145f31e",
+    "174861617467b51d0f",
+    "related-products",
+    "17486161899a5c8da9"
   ]
 }
