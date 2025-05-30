@@ -7,11 +7,29 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "slideshow_fWjXyz": {
       "type": "slideshow",
       "blocks": {
+        "slide_HJknCY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SS25_WESBITE_GOSOAKY_IN_THE_CITY_3.png",
+            "image_overlay_opacity": 0,
+            "heading": "<strong>#GOSOAKYINTHECITY</strong>",
+            "heading_size": "hxl",
+            "subheading": "",
+            "button_label": "SHOP NOW",
+            "link": "shopify://collections/spring-summer-2025-outerwear",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-3"
+          }
+        },
         "slide_ccnEpq": {
           "type": "slide",
           "settings": {
@@ -20,7 +38,7 @@
             "heading": "<strong>SPRING SUMMER 25</strong>",
             "heading_size": "hxxl",
             "subheading": "",
-            "button_label": "NEW COLLECTION",
+            "button_label": "SHOP NOW",
             "link": "shopify://collections/spring-summer-2025",
             "button_style_secondary": false,
             "show_text_box": false,
@@ -32,6 +50,7 @@
         }
       },
       "block_order": [
+        "slide_HJknCY",
         "slide_ccnEpq"
       ],
       "settings": {
