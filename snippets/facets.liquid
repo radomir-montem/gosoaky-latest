@@ -151,7 +151,7 @@
                             {{ 'products.facets.filter_and_operator_subtitle' | t }}
                           </span>
                         {%- endif -%}
-                        {{- 'icon-caret.svg' | inline_asset_content -}}
+                        <span class="facets__summary-circle"></span>
                       </div>
                     </summary>
                     <div
@@ -307,7 +307,7 @@
                     <summary class="facets__summary caption-large focus-offset">
                       <div>
                         <span>{{ filter.label | escape }}</span>
-                        {{- 'icon-caret.svg' | inline_asset_content -}}
+                        <span class="facets__summary-circle"></span>
                       </div>
                     </summary>
                     <div
