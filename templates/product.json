@@ -31,10 +31,6 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -42,9 +38,32 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
+        "collapsible_tab_WVUR9E": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.product_information.product_description | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_F8jUYD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.product_information.product_specifications | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_D6qe7Y": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sizing Information",
+            "icon": "none",
+            "content": "<p>All garments are based on EU standard sizing. As age and size can differ across countries, we advise you to measure the height your kid to find out the correct size. For instance, if your child is 114 cm tall, choose size 110/116. In cases where your child falls between two sizes, consider selecting the larger size to ensure a comfortable fit as they continue to grow.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -52,9 +71,10 @@
         "title",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
-        "description"
+        "collapsible_tab_WVUR9E",
+        "collapsible_tab_F8jUYD",
+        "collapsible_tab_D6qe7Y"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -62,10 +82,10 @@
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail_slider",
         "mobile_thumbnails": "hide",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
