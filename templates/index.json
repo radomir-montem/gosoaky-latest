@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/SS25_WESBITE_GOSOAKY_IN_THE_CITY_3.png",
             "mobile_image": "shopify://shop_images/SS25_WESBITE_GOSOAKY_IN_THE_CITY_8.png",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 20,
             "heading": "<strong>#GOSOAKYINTHECITY</strong>",
             "heading_size": "hxl",
             "subheading": "",
