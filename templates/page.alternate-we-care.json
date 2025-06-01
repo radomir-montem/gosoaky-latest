@@ -45,10 +45,42 @@
         "mobile_content_alignment": "center",
         "show_text_below": true
       }
+    },
+    "rich_text_hCndYp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8WGMRb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>LET'S CHANGE THE STATUS QUO!</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_atcJpP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We love fashion but it makes us very sad that this industry is also one of the biggest sources of pollution. Let’s change the status quo! It’s our mission to make people happy with our garments and work towards a sustainable future. That’s why we recycle where possible and make high quality garments that can be passed on from sibling to sibling. It’s why no animal products or toxic chemicals are used in our materials and finishes. Every GOSOAKY is PFC + AZO-free, because these toxic chemicals, which are used in a lot of materials, could cause harm to our small ones as well as the environment. Instead we use BIONIC-FINISH® ECO on all our garments.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8WGMRb",
+        "text_atcJpP"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_prRcAM"
+    "image_banner_prRcAM",
+    "rich_text_hCndYp"
   ]
 }
