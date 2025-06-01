@@ -33,6 +33,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
+        "image": "shopify://shop_images/DSC_2844_f5c2bc4b-90a5-4bc3-a114-d78cb047d248.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "none",
