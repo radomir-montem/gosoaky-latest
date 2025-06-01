@@ -77,11 +77,69 @@
         "padding_top": 52,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_rtrP7g": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_hmUQn9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/wesbite_icons-01_3ad21903-0c25-4cd4-b0d6-90c0770ee5ac.png",
+            "title": "<strong>1. sign up</strong>",
+            "text": "<p>Click the button below to sign up with Shopify Collabs (you need at least 1,000 followers on any of your social accounts). Keep an eye on your email for a confirmation and a welcome gift!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DUmbPn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/wesbite_icons-02_40beea41-f27c-4aa5-81d8-9433ca5490d9.png",
+            "title": "<strong>2. Post On Social</strong>",
+            "text": "<p>Create content wearing your GOSOAKY, following our posting guidelines.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_reRejV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/wesbite_icons-03_98585fc8-3b53-4220-b135-b94cc88fa3f6.png",
+            "title": "<strong>3. Get Rewarded</strong>",
+            "text": "<p>Complete the deliverables outlined below and upon completion you will receive special rewards offered only to ambassadors!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_hmUQn9",
+        "column_DUmbPn",
+        "column_reRejV"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>HOW DOES IT WORKS?</strong>",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "button_label": "APPLY NOW",
+        "button_link": "https://api.collabs.shopify.com/creator/signup/community_application/d698b7a5112baa7a?origin=THEME_EXTENSION",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "slideshow_qU6RCQ",
-    "rich_text_mLk7QL"
+    "rich_text_mLk7QL",
+    "multicolumn_rtrP7g"
   ]
 }
