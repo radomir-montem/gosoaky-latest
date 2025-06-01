@@ -134,12 +134,142 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_gbdCty": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hqfezW": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>THE PERFECT GOSOAKY AMBASSADOR</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_qKwbAU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are looking for vibrant and happy families that love to explore and have fun in the urban outdoors, capturing the adventures in high quality content that inspire other families to go out and explore!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hqfezW",
+        "text_qKwbAU"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_4qdY4h": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_trwzVn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-11_at_10.51.48.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iUGanp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-11_at_10.50.12.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hACqki": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-11_at_10.52.21_a4fd4c2e-65cb-459f-9ca4-93dbbae10bff.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4LHxfC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-11_at_10.56.53_25bb9efc-9c78-455d-86c4-4bb2a1b04071.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_trwzVn",
+        "column_iUGanp",
+        "column_hACqki",
+        "column_4LHxfC"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_iVLedU": {
+      "type": "rich-text",
+      "blocks": {
+        "button_FJXKPV": {
+          "type": "button",
+          "settings": {
+            "button_label": "APPLY NOW",
+            "button_link": "https://api.collabs.shopify.com/creator/signup/community_application/d698b7a5112baa7a?origin=THEME_EXTENSION",
+            "view_all_style": "solid",
+            "button_label_2": "LOGIN",
+            "button_link_2": "https://api.collabs.shopify.com/creator/login/community_application/d698b7a5112baa7a?origin=THEME_EXTENSION",
+            "view_all_style_2": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "button_FJXKPV"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "slideshow_qU6RCQ",
     "rich_text_mLk7QL",
-    "multicolumn_rtrP7g"
+    "multicolumn_rtrP7g",
+    "rich_text_gbdCty",
+    "multicolumn_4qdY4h",
+    "rich_text_iVLedU"
   ]
 }
