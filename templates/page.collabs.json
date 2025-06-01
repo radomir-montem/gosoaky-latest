@@ -261,6 +261,68 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_FnahqT": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_y3gBkW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I become eligible to the ambassador program?",
+            "icon": "none",
+            "row_content": "<p>The eligibility is decided based on: follower base number <strong>(minimum 1000 followers)</strong> and region, as well as aligning with our brand's values and aesthetic. The GOSOAKY team manually reviews every applicant. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ihNyx9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I become an Ambassador?",
+            "icon": "none",
+            "row_content": "<p><span style=\"text-decoration:underline\">Follow the steps:</span></p><ol><li>Sign up <a href=\"https://collabs.shopify.com/gifts\" title=\"https://accounts.shopify.com/signup?rid=45d169ea-5c49-4cb2-b38f-c852b1891ea5\"><strong>here</strong></a> and follow instructions to send your application.</li><li>Wait for an official response via email from one of our  GOSOAKY team members  and see if you have been accepted and become part of the Ambassador programme. </li><li>If you are accepted, you will receive an email confirmation that explains the program and following steps.</li></ol>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wpVaXU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I promote the products on Social Media?",
+            "icon": "none",
+            "row_content": "<p>The products will be promoted on Instagram and TikTok using the following formats:</p><p><span style=\"text-decoration:underline\">Instagram</span>:</p><ul><li>Stories, reels and preferably videos </li><li>Images promoting the products/with GOSOAKY jackets tagging the brand</li><li>Hauls/try on videos</li></ul><p></p><p><span style=\"text-decoration:underline\">TikTok:</span></p><ul><li>Stories</li><li>Hauls/try on videos</li><li>“How to take care of a GOSOAKY jacket” video</li><li>Unboxing videos</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NcQiCQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the content requirements?",
+            "icon": "none",
+            "row_content": "<p>In order for the content to be eligible with our brand’s requirements, it should:</p><p></p><ul><li>Be made only from accounts that are public</li><li>Visibly display <strong>@gosoaky_outerproofs </strong>in the caption OR tag us. </li><li>Mandatory use <strong>#gosoakyandme </strong>throughout all posts </li></ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_y3gBkW",
+        "collapsible_row_ihNyx9",
+        "collapsible_row_wpVaXU",
+        "collapsible_row_NcQiCQ"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "<strong>AMBASSADOR'S FAQ</strong>",
+        "heading_size": "h0",
+        "heading_alignment": "left",
+        "layout": "row",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -270,6 +332,7 @@
     "multicolumn_rtrP7g",
     "rich_text_gbdCty",
     "multicolumn_4qdY4h",
-    "rich_text_iVLedU"
+    "rich_text_iVLedU",
+    "collapsible_content_FnahqT"
   ]
 }
