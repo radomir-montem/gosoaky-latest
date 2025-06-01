@@ -439,32 +439,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "174879871391ce087c": {
-      "type": "apps",
-      "blocks": {
-        "collabs_application_page_NVChiU": {
-          "type": "shopify://apps/collabs/blocks/application-page/54758706-9f25-4fa9-a553-64720a4c998b",
-          "settings": {
-            "heading": "Affiliate programme",
-            "show_square_logo": true,
-            "show_partnership_info": true,
-            "button_text": "Apply now",
-            "number_of_images": "4",
-            "logo_position": "above",
-            "corner_style": "square",
-            "button_background_color": "#000000",
-            "button_label_color": "#ffffff",
-            "link_color": "#2c6ecb"
-          }
-        }
-      },
-      "block_order": [
-        "collabs_application_page_NVChiU"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -475,7 +449,6 @@
     "collapsible_content_fEHcNG",
     "collapsible_content_HtCRYX",
     "collapsible_content_U7kUCA",
-    "collapsible_content_7jwaim",
-    "174879871391ce087c"
+    "collapsible_content_7jwaim"
   ]
 }
