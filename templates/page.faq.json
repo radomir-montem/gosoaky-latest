@@ -263,6 +263,208 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_HtCRYX": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_b6Pwjy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Something is wrong with my GOSOAKY item.",
+            "icon": "none",
+            "row_content": "<p>If something is wrong with the quality of your item or you want to make a warranty claim, please send us an email at <a href=\"mailto:hello@gosoaky.com\" target=\"_blank\">hello@gosoaky.com</a> with photos of the defect, what style and size jacket you have and where you bought it and we will help you as soon as possible.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_b6Pwjy"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "<strong>WRANNTY</strong>",
+        "heading_size": "h0",
+        "heading_alignment": "left",
+        "layout": "row",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_U7kUCA": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_NP7J4c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I want to become an agent/distributor",
+            "icon": "none",
+            "row_content": "<p>If you’re interested in becoming an agent/distributor of our brand, please get in touch below or send an email to <a href=\"mailto:support@gofranck.com\" target=\"_blank\">support@gosoaky.com</a> to discuss options.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kKEG7X": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "We want to become a retailer carrying the brand",
+            "icon": "none",
+            "row_content": "<p>We’re always looking for new retailers who want to carry our brand. If you’re interested, please get in touch with us or send an email to <a href=\"mailto:support@gofranck.com\" target=\"_blank\">support@gosoaky.com</a> to get in touch with our agent.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_NP7J4c",
+        "collapsible_row_kKEG7X"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "<strong>B2B</strong>",
+        "heading_size": "h0",
+        "heading_alignment": "left",
+        "layout": "row",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_7jwaim": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_cUAReq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I iron my jacket?",
+            "icon": "none",
+            "row_content": "<p>We recommend to use a steamer instead of an iron to eliminate wrinkles. An Iron could damage the waterproof coating and fabric of your item, which is why it shouldn’t be used.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hmJQDY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much rain can a jacket handle?",
+            "icon": "none",
+            "row_content": "<p>Depending on the water column pressure your jacket has, GOFRANCK jackets can withstand low to heavy rainfall. The waterproof rating is always mentioned in the product specifications.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_37wDBP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How sustainable is GOSOAKY?",
+            "icon": "none",
+            "row_content": "<p>We’re actively working on making our brand as sustainable as possible. Each GOSOAKY is animal-free and made with high performance, toxin-free materials + trims that are built to last, so items can be enjoyed for a long time. Where possible, we also use sustainable materials, like the DuPont™ Soro...</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_f3pNzE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How to handle my jacket?",
+            "icon": "none",
+            "row_content": "<p>Mostly with love and care :), but if there’s a stain, you can also use a damp cloth and some gentle detergent to treat the spot. If your jacket needs a deeper cleaning, you can also use the washing machine at 30 degrees Celsius with a gentle detergent. In general, we recommend to hang your jacket up afterwards to airdry. To know if your jacket can be put in the dryer, you can consult the care label in the jacket, as that differentiates with every jacket. Please never use bleach, as that will cause damage to the fabric and waterproofness, and we don’t want that! Most items are made of a waterproof fabric that is additionally treated with a water repellent finish so moisture drops off the fabric. After you’ve loved your GOSOAKY for a while the finish might need a boost and we recommend to treat the jacket with our Organotex X GOSOAKY Water Repellent Spray so you can love your GOSOAKY longer.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qG74yp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there PFAS in a jacket?",
+            "icon": "none",
+            "row_content": "<p>All GOSOAKY garments are made free from harmful chemicals that could affect the environment or the person wearing the garment. Subsequently, there are no PFAS in GOSOAKY garments.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MEAnAy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the total jacket waterproof?",
+            "icon": "none",
+            "row_content": "<p>How waterproof a jacket is depending on the material that’s being used and if the seams are taped. Most GOFRANCK jackets are fully taped, but not all. The waterproofness of the jacket is always mentioned in the style specifications.</p><p><br/>Please also note that there is a difference between waterproof and water repellent. Waterproof jackets have all or critical seams taped and can withstand rain without being penetrated. With water repellent jackets, some moisture will bead off the fabric, but it can’t withstand rainfall or a lot of moisture. It is always mentioned in the style specifications how waterproof or water repellent a jacket is.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3rqM6h": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does column pressure mean?",
+            "icon": "none",
+            "row_content": "<p>Imagine a square tube of 30 mm x 30 mm that is placed on top of the fabric and is filled with water while measuring the height of the water. The height of the water says something about the amount of pressure the fabric can withstand before the water will penetrate the fabric. That is how Water Column Pressure is measured. So, a Water Column Pressure of 20K means that the fabric can withstand 20.000 mm of water pressure.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XbWLqJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why do you have a spray to keep it water repellent?",
+            "icon": "none",
+            "row_content": "<p>The waterproof GOSOAKY items are made of a waterproof fabric that is additionally treated with a water repellent finish so moisture beads off. After some time, the water repellent finish gets worn off. To give this finish a boost and make the lifespan of your GOSOAKY longer, it is necessary to treat your jacket with the Organotex X GOSOAKY Water Repellent Spray from time to time.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_cUAReq",
+        "collapsible_row_hmJQDY",
+        "collapsible_row_37wDBP",
+        "collapsible_row_f3pNzE",
+        "collapsible_row_qG74yp",
+        "collapsible_row_MEAnAy",
+        "collapsible_row_3rqM6h",
+        "collapsible_row_XbWLqJ"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "<strong>PRODUCT</strong>",
+        "heading_size": "h0",
+        "heading_alignment": "left",
+        "layout": "row",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "174879871391ce087c": {
+      "type": "apps",
+      "blocks": {
+        "collabs_application_page_NVChiU": {
+          "type": "shopify://apps/collabs/blocks/application-page/54758706-9f25-4fa9-a553-64720a4c998b",
+          "settings": {
+            "heading": "Affiliate programme",
+            "show_square_logo": true,
+            "show_partnership_info": true,
+            "button_text": "Apply now",
+            "number_of_images": "4",
+            "logo_position": "above",
+            "corner_style": "square",
+            "button_background_color": "#000000",
+            "button_label_color": "#ffffff",
+            "link_color": "#2c6ecb"
+          }
+        }
+      },
+      "block_order": [
+        "collabs_application_page_NVChiU"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -270,6 +472,10 @@
     "rich_text_tQzUqe",
     "collapsible_content_CTw8Rf",
     "collapsible_content_baNDCQ",
-    "collapsible_content_fEHcNG"
+    "collapsible_content_fEHcNG",
+    "collapsible_content_HtCRYX",
+    "collapsible_content_U7kUCA",
+    "collapsible_content_7jwaim",
+    "174879871391ce087c"
   ]
 }
