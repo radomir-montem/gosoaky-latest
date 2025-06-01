@@ -129,7 +129,8 @@ slideshow-component:not(:hover) .slideshow__controls {
   display: none;
 }
 
-.slideshow__controls .slider-counter {
+.slideshow__controls .slider-counter,
+.slideshow__controls .slideshow__autoplay {
   display: none;
 }
 
