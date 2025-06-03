@@ -34,8 +34,14 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
+          }
+        },
+        "richtext_AKLEcB": {
+          "type": "richtext",
+          "settings": {
+            "text": "<ul><li>Free Shipping above €150</li><li>Sustainable Outerproofs™</li><li>Order before 15:00, shipped out today</li></ul>"
           }
         },
         "collapsible_tab_WVUR9E": {
@@ -72,6 +78,7 @@
         "price",
         "variant_picker",
         "buy_buttons",
+        "richtext_AKLEcB",
         "collapsible_tab_WVUR9E",
         "collapsible_tab_F8jUYD",
         "collapsible_tab_D6qe7Y"

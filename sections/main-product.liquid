@@ -96,6 +96,13 @@
                 >
                   {{- block.settings.text -}}
                 </p>
+              {%- when 'richtext' -%}
+                <div
+                  class="product__text rte caption"
+                  {{ block.shopify_attributes }}
+                >
+                  {{- block.settings.text -}}
+                </div>
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
                   <h1 class="h2"><strong>{{ product.title | split: ' | ' | first | escape }}</strong></h1>
@@ -2070,6 +2077,17 @@
           "default": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.default",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.label",
           "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "name": "Richtext",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
         }
       ]
     }
