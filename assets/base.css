@@ -3929,6 +3929,7 @@ details-disclosure > details {
   bottom: 80px;
   right: 0;
   transform: rotate(90deg);
+  text-decoration: none;
 }
 
 .go-cw-btn-title {
