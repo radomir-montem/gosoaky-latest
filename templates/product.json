@@ -129,6 +129,16 @@
         "include_margins": true
       }
     },
+    "go_anatomy_home_page_aFXAMw": {
+      "type": "go-anatomy-home-page",
+      "name": "Anatomy",
+      "settings": {
+        "header": "Anatomy of the",
+        "show_name": true,
+        "product": "{{ product }}",
+        "icon_guide_url": "shopify://pages/icon-guide"
+      }
+    },
     "174861617467b51d0f": {
       "type": "apps",
       "blocks": {
@@ -184,6 +194,7 @@
     "main",
     "17486155920466250d",
     "17486161674145f31e",
+    "go_anatomy_home_page_aFXAMw",
     "174861617467b51d0f",
     "related-products",
     "17486161899a5c8da9"

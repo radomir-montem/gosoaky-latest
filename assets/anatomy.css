@@ -1,0 +1,372 @@
+.go-section-anatomy {
+  background-color: #ccad91;
+  margin: 0;
+  padding: 60px 60px 0;
+}
+
+.go-anatomy-container {
+  object-fit: fill;
+  background-color: #0000;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  display: block;
+  position: static;
+  top: 0;
+  overflow: visible;
+}
+
+.go-anatomy-block {
+  flex-direction: row;
+  flex: none;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 0;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+.go-anatomy-grid {
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
+  flex: 1;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  max-width: 1400px;
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 80px 0 120px;
+  display: grid;
+}
+
+.go-product-card-soldout {
+  color: #b7b7b7;
+  text-transform: uppercase;
+  font-family: proxima-nova, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.go-anatomy-grid-block-left {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  overflow: hidden;
+}
+
+.go-anatomy-feature-image {
+  flex: 0 auto;
+  width: 60px;
+  max-width: none;
+  height: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.go-anatomy-feature-title {
+  color: #fff;
+  width: 60%;
+  margin-bottom: 8px;
+  font-family: proxima-nova, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.go-anatomy-grid-block-line-right-aligned {
+  color: #000;
+  background-color: #fff0;
+  background-image: linear-gradient(to right, #fff, #fff0 95%, #fff0);
+  flex: none;
+  align-self: flex-end;
+  width: 100%;
+  height: 2px;
+  display: block !important;
+}
+
+.go-anatomy-grid-block-right {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  overflow: hidden;
+}
+
+.go-anatomy-feature-title-right {
+  color: #fff;
+  text-align: right;
+  width: 60%;
+  margin-bottom: 8px;
+  font-family: proxima-nova, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.go-anatomy-image-block {
+  z-index: 1;
+  object-fit: fill;
+  flex: none;
+  justify-content: center;
+  align-self: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 60px;
+  display: flex;
+  position: absolute;
+  inset: 0% auto;
+}
+
+.go-anatomy-image {
+  opacity: 1;
+  perspective-origin: 50%;
+  transform-origin: 50%;
+  object-fit: cover;
+  flex: none;
+  width: auto;
+  height: 100%;
+  position: relative;
+  inset: 0% auto;
+  overflow: visible;
+}
+
+.go-anatomy-track {
+  background-color: #ccad91;
+  width: 100%;
+  height: 150vh;
+  min-height: 800px;
+}
+
+.go-anatomy-camera {
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.go-anatomy-frame {
+  height: 100%;
+}
+
+.go-anatomy-grid-block-line-left-aligned {
+  color: #fff;
+  background-color: #fff0;
+  background-image: linear-gradient(to right, #fff0, #fff0 5%, #fff);
+  flex: none;
+  align-self: flex-start;
+  width: 100%;
+  height: 2px;
+  display: block !important;
+}
+
+.go-h2-title-anatomy {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: proxima-nova, sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  position: static;
+  top: 0;
+}
+
+.go-anatomy-button-block {
+  z-index: 2;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  position: absolute;
+  inset: auto auto 16px;
+}
+
+@media screen and (min-width: 1280px) {
+  .go-anatomy-block {
+    flex-direction: row;
+  }
+
+  .go-anatomy-grid-block-left {
+    justify-content: flex-end;
+    height: auto;
+    min-height: 100px;
+  }
+
+  .go-anatomy-image-block {
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: center;
+    padding-top: 60px;
+    display: flex;
+    inset: 0% auto;
+  }
+
+  .go-anatomy-image {
+    flex: none;
+    align-self: flex-end;
+    display: inline-block;
+    inset: auto 0% 0%;
+  }
+
+  .go-anatomy-track {
+    overflow: visible;
+  }
+}
+
+@media (max-width: 991px) {
+    .go-section-anatomy {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .go-anatomy-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .go-anatomy-block {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .go-anatomy-grid {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .go-product-card-soldout {
+    font-size: 12px;
+    line-height: 1em;
+  }
+
+  .go-anatomy-image-block {
+    flex: none;
+  }
+
+  .go-h2-title-anatomy {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+    .go-section-anatomy {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .go-anatomy-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .go-anatomy-block {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .go-anatomy-feature-image {
+    flex: none;
+  }
+
+  .go-anatomy-feature-title, .go-anatomy-feature-title-right {
+    font-size: 14px;
+  }
+
+  .go-anatomy-track {
+    height: 200vh;
+  }
+
+  .go-anatomy-camera {
+    overflow: hidden;
+  }
+
+  .go-anatomy-frame {
+    width: 170vw;
+  }
+
+  .go-h2-title-anatomy {
+    margin-bottom: 0;
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 479px) {
+    .go-section-anatomy {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .go-anatomy-container {
+    background-color: #0000;
+  }
+
+  .go-anatomy-grid {
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+  }
+
+  .go-anatomy-grid-block-left {
+    height: 100%;
+    min-height: auto;
+  }
+
+  .go-anatomy-feature-image {
+    flex: 0 auto;
+    width: auto;
+    min-width: 20px;
+    max-width: 50px;
+    display: block;
+    overflow: hidden;
+  }
+
+  .go-anatomy-feature-title {
+    font-size: 1.7vh;
+  }
+
+  .go-anatomy-grid-block-right {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    min-height: auto;
+  }
+
+  .go-anatomy-feature-title-right {
+    font-size: 1.7vh;
+  }
+
+  .go-anatomy-image {
+    display: block;
+  }
+
+  .go-anatomy-track {
+    height: 250vh;
+    min-height: 500px;
+  }
+
+  .go-h2-title-anatomy {
+    margin-bottom: 0;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
