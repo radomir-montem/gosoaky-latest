@@ -66,7 +66,7 @@
         </fieldset>
       {%- elsif picker_type == 'button' -%}
         <fieldset class="js product-form__input product-form__input--pill{% if option.name == 'Color' %} hidden{% endif %}">
-        <legend class="form__label">{{ option.name }}: {% if option.name != 'Color' and product.metafields.product_information.show_size_information != blank %}<a href="#sg-sizing-information-link" class="sg-product-page-label underlined">Sizing</a>{% endif %}</legend>
+        <legend class="form__label">{{ option.name }}:</legend>
           {% render 'product-variant-options',
             product: product,
             option: option,
