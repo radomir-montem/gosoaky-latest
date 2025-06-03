@@ -53,10 +53,21 @@
         "padding_top": 8,
         "padding_bottom": 8
       }
+    },
+    "contact_widget_nFqrqb": {
+      "type": "contact-widget",
+      "name": "Contact Widget",
+      "settings": {
+        "button_label": "Contact Us",
+        "header_text": "Get in touch",
+        "richtext": "<p>Check our <a href=\"#\">faq page</a> for most of your questions. Still need help? Drop us an email below. We are here to help!</p>",
+        "submit_text": "Send Message"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "contact_widget_nFqrqb"
   ]
 }
