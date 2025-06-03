@@ -43,7 +43,7 @@
           "settings": {
             "heading": "Description",
             "icon": "none",
-            "content": "<p>{{ product.metafields.product_information.product_description | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.product_description | metafield_tag }}",
             "page": ""
           }
         },
@@ -52,7 +52,7 @@
           "settings": {
             "heading": "Specifications",
             "icon": "none",
-            "content": "<p>{{ product.metafields.product_information.product_specifications | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.product_specification | metafield_tag }}",
             "page": ""
           }
         },
