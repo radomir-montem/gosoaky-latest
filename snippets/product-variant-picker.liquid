@@ -27,8 +27,30 @@
           endif
         endif
       -%}
+      {% if option.name == 'Color' and product.metafields.product_information.product_color_collection != blank %}
+        <div class="color-swatches">
+          <div class="color-swatches__header">
+            <strong>Color: </strong><span>{{ option.selected_value }}</span>
+          </div>
+          <div class="color-swatches__content">
+            {% for color_product in product.metafields.product_information.product_color_collection.value.products %}
+              <a class="color-swatches__item {% if color_product == product %}active{% endif %}" href="{% if color_product == product %}javascript:;{% else %}{{ color_product.url }}{% endif %}">
+                {{ 
+                  color_product.featured_media
+                  | image_url: width: 100
+                  | image_tag:
+                    loading: 'lazy',
+                    sizes: '(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 45vw, 49vw',
+                    widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                    alt: color_product.title
+                 }}
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
       {%- if picker_type == 'swatch' -%}
-        <fieldset class="js product-form__input product-form__input--swatch">
+        <fieldset class="js product-form__input product-form__input--swatch{% if option.name == 'Color' %} hidden{% endif %}">
           <legend class="form__label">
             {{ option.name }}:
             <span data-selected-value>
@@ -43,8 +65,8 @@
           %}
         </fieldset>
       {%- elsif picker_type == 'button' -%}
-        <fieldset class="js product-form__input product-form__input--pill">
-          <legend class="form__label">{{ option.name }}</legend>
+        <fieldset class="js product-form__input product-form__input--pill{% if option.name == 'Color' %} hidden{% endif %}">
+        <legend class="form__label">{{ option.name }}: {% if option.name != 'Color' and product.metafields.product_information.show_size_information != blank %}<a href="#sg-sizing-information-link" class="sg-product-page-label underlined">Sizing</a>{% endif %}</legend>
           {% render 'product-variant-options',
             product: product,
             option: option,
@@ -53,7 +75,7 @@
           %}
         </fieldset>
       {%- else -%}
-        <div class="product-form__input product-form__input--dropdown">
+        <div class="product-form__input product-form__input--dropdown{% if option.name == 'Color' %} hidden{% endif %}">
           <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
             {{ option.name }}
           </label>
@@ -92,3 +114,8 @@
     </script>
   </variant-selects>
 {%- endunless -%}
+{% if product.metafields.product_information.sizing_information != blank %}
+    <div class="product__text inline-richtext caption">
+      {{ product.metafields.product_information.sizing_information }}
+    </div>
+{% endif %}
