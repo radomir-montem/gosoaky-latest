@@ -185,6 +185,7 @@
   line-height: 56px;
   position: static;
   top: 0;
+  font-weight: bold;
 }
 
 .go-anatomy-button-block {
