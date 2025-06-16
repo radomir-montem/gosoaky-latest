@@ -54,13 +54,9 @@
   display: block;
 }
 
-.price__sale,
-.price__availability,
-.price .price__badge-sale,
-.price .price__badge-sold-out,
-.price--on-sale .price__regular,
-.price--on-sale .price__availability {
-  display: none;
+.price__container {
+  display: flex;
+  gap: 10px;
 }
 
 .price--sold-out .price__badge-sold-out,

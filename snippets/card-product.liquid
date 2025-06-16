@@ -150,6 +150,10 @@
               </span>
             {%- endif -%}
           </div> {% endcomment %}
+          {% if card_product.compare_at_price > card_product.price %}
+            {% assign discount = card_product.price | times: 1.0 | divided_by: card_product.compare_at_price | times: 100 | round %}
+            <span class="go-product-card-badge">-{{ 100 | minus: discount }}%</span>
+          {% endif %}
         </div>
       </div>
       <div class="card__content">

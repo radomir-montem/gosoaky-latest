@@ -8,3 +8,19 @@
 .cart-notification__links a.button {
     text-transform: uppercase;
 }
+
+.product__info-container .caption {
+    font-size: 15px;
+}
+
+.go-product-card-badge  {
+    position: absolute;
+    z-index: 1;
+    background: #ffffff;
+    padding: 5px 12px;
+    right: 10px;
+    bottom: 10px;
+    font-family: proxima-nova,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
