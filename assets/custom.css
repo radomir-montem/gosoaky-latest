@@ -1,0 +1,10 @@
+.cart-notification__links .button,
+.cart-notification__links .link {
+    font-weight: 400;
+    text-transform: none;
+    font-size: 1.5rem;
+}
+
+.cart-notification__links a.button {
+    text-transform: uppercase;
+}
