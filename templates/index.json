@@ -107,6 +107,12 @@
       "type": "featured-collection",
       "settings": {
         "collection": "kids-winter-clothes",
+        "products": [
+          "blue-bird-snapdragon-yellow",
+          "kangaroo-daisy-azure-blue",
+          "pig-out-white-gap-grey",
+          "the-seagull-cool-blue-true-blue"
+        ],
         "products_to_show": 4,
         "title": "<strong>OUR WARDROBE HEROES</strong>",
         "heading_size": "h0",
